@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="main.js"></script>
+    <title>Découpage administratif</title>
+</head>
+<body>
+    <form id="territory-selection">
+        <label for="region">
+            <select name="region" id="region-select">
+                <option value="null"></option>
+            </select>
+        </label>
+        <label for="departement">
+            <select name="departement" id="departement-select">
+                <option value="null"></option>
+            </select>
+        </label>
+        <button type="submit" id="display-cities-button">Afficher la liste des communes</button>
+    </form>
+    <ul id="commune-list"></ul>
+</body>
+</html>

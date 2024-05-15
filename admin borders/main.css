@@ -1,0 +1,21 @@
+select, button{
+min-width: 150px;
+color: darkblue;
+background-color: white;
+border: none;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.263);
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 10px;
+}
+#commune-list{
+    list-style: none;
+    margin: 40px 20vw ;
+}
+li{
+    margin-top: 5px;
+}
+form{
+    padding: 30px 20vw;
+}
