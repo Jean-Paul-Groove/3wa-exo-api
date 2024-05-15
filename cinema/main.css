@@ -1,0 +1,33 @@
+body{
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cinema-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+li{
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(2, 95, 2, 0.301);
+    border-radius: 5px;
+}
+#pagination{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#pagination > button{
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#pagination > button:hover{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.584);
+}
