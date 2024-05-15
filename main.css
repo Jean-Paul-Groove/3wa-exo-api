@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+    padding: 10vw;
+    display: flex;
+    place-items: center;
+    gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    min-width: 150px;
+    color: darkblue;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.263);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    #adress{
+        min-height: 400px;
+    }
+h1{
+    color: darkblue;
+}
+h2{
+    color: blueviolet;
+}
